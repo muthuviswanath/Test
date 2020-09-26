@@ -1,0 +1,73 @@
+String formatting
+
+1. using comma to format the string and the variables
+2. % operator
+3. format() method of the string
+4. using f-strings
+
+1. Using comma to format the string and variables
+==================================================
+age = 20
+name = "Umakant"
+company = "CTS"
+salary = 67345.65
+# Umakant who is of age 20 is working for CTS and is earning a salary of 67345.65 Rs.
+print(name, "who is of age",age,"is working for", company, "and is earning a salary of",salary)
+
+2. % operator
+==================================================
+
+used to format a string as well as numbers
+after the string place %followed by the argument specifiers and after the string, mention the identifiers in parameters
+the %will take only one argument for the parameters
+
+Argument Specifiers:
+%s - represents String
+%d - represents integer
+%f - floating point (it takes 6 digit after the decimal point)
+%<number_of_digits>f - floating point with a fixed amount of digits after the decimal point
+
+
+format()
+
+It is an in-built method of String
+It formats the string at the places where curly braces are placed
+Limitation:
+	If the manual indexing is used, automatic indexing will be obsolete
+
+f-Strings:
+In case of f-string, mention the identifier in curly braces
+f should be present outside the curly braces
+print(f"{name} who is of age {age} is working for {company} and is earning a salary of {salary} Rs.")
+
+
+Python Advantages & Disadvanges:
+
+Adv:
+1. As it is simple it increases the productivity in providing a solutio to a problem
+2. It is interpreted (Read, Evaluate, Print, Loop)
+3. Dynamically Type
+4. Free and Opensource
+5. Vast Library support
+
+Disadv:
+
+1. slow
+2. Memory efficient
+3. Weak in mobile computing
+4. Limited DB support
+5. Unexpected Run Time errors
+
+
+Variables:
+
+It is a container to store a value.
+It can be assgined a name to refer later in the program
+In case of python, the datatye of the variable is decided based on the value during runtime
+as variable is also an identifier, the identifier rules are applicable for variable name as well
+
+Variable Assignment:
+
+1. To assinga value it is not mandatory to mention the data type of the variable as python is a dynmaically typed programming language
+2. It is not possible to use the variables before assigning a value to it
+
