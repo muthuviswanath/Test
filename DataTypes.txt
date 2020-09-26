@@ -1,0 +1,40 @@
+DataTypes
+
+1. int
+2. float
+3. complex
+4. bool
+5. str
+6. bytes
+7. bytearray
+8. range
+9. list
+10. tuple
+11. dictionary
+12. set
+13. frozenset
+14. None
+
+1. type() - tell the type of data
+2. id() - address of the object
+3. print() - print the value
+
+Numbers:
+	int
+		it holds signed integer.
+		integer can be of any length only restriction is there must be memory available
+
+	float
+	any decimal point values can be stored and it can be signed value
+	it is accurate upto 15 decimal places. After that it rounds off the number
+	any division in python results in float
+
+	complex
+	combimation of real + imaginary part
+	Ex: 10+5i
+	a + bi
+	a - real part
+	bi - imaginary part
+
+	it is not possible to represent the imaginary part with anything apart from j
+	coefficient is mandatory for the imaginary part
